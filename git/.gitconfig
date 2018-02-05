@@ -1,0 +1,19 @@
+[core]
+  editor = vim
+  autocrlf = false
+  eol = lf
+  pager = less -r
+  excludesfile = ~/.gitignore
+[alias]
+  co = checkout
+  ci = commit
+  st = status -sb
+  br = branch
+  dt = difftool -y
+  mt = mergetool
+  di = diff -b
+  ls = log --pretty=format:'%C(yellow)%h %C(blue)%ad%C(red)%d %C(reset)%s%C(green) [%cn]' --decorate --date=short
+[color]
+  ui = auto
+[tig]
+  ignore-space = all
